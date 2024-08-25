@@ -7,6 +7,7 @@ The Pokémon Search App allows users to search for Pokémon by name or ID and vi
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
+- [Screenshot](#screenshot)
 - [File Structure](#file-structure)
 - [Code Snippets](#code-snippets)
 
@@ -27,6 +28,10 @@ The Pokémon Search App allows users to search for Pokémon by name or ID and vi
 1. Open the app in your web browser.
 2. Enter the name or ID of the Pokémon you want to search for in the search bar.
 3. Click the "Search" button to retrieve and display the Pokémon's information.
+
+## Screenshot
+
+![](./images/iPhone-13-PRO-127.0.0.1%20(1).png)
 
 ## File Structure
 
