@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Search App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="entire-page">
+        <section id="main-content">
+            <div class="top-block">
+                <h1 class="brand-name">D-TECH</h1>
+                <h2 class="app-name">Pokémon Search App</h2>
+            </div>
+            <div class="container">
+                <form class="form-block">
+                    <label for="search-input">Search for Pokémon Name or ID:</label>
+                    <div class="input-button">
+                        <input id="search-input" name="search-input" type="text">
+                        <button id="search-button" type="button">Search</button>
+                    </div>
+                </form>
+                <div id="pokemon-info">
+                    <div class="details">
+                        <div class="base">
+                            <p>Name:</p>
+                            <p>ID:</p>
+                            <p>Weight:</p>
+                            <p>Height:</p>
+                            <p>HP:</p>
+                            <p>Attack:</p>
+                            <p>Defense:</p>
+                            <p>Sp. Attack:</p>
+                            <p>Sp. Defense:</p>
+                            <p>Speed:</p>
+                            <p>Types:</p>
+                        </div>
+                        <div class="stats">
+                            <span id="pokemon-name"></span>
+                            <span id="pokemon-id"></span>
+                            <span id="weight"></span>
+                            <span id="height"></span>
+                            <span id="hp"></span>
+                            <span id="attack"></span>
+                            <span id="defense"></span>
+                            <span id="special-attack"></span>
+                            <span id="special-defense"></span>
+                            <span id="speed"></span>
+                            <span id="types"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
